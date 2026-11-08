@@ -80,6 +80,13 @@
 
 如果任何作者希望自己的模型从本仓库移除，请开一个 issue，我会立即删除。
 
-## 与代码仓库的关系
+## 相关仓库
 
-模型仓库和代码分开：模型体积大（69.5 MB）且授权独立，[Fumofumo_Mobile](https://github.com/FunnyArchbishop/Fumofumo_Mobile) 仓库里不放模型文件，只在运行时由用户自行选择。
+| 仓库 | 说明 |
+| --- | --- |
+| **[Fumofumo_Models](https://github.com/FunnyArchbishop/Fumofumo_Models)** | ← 你在这里：20 个 fumo 3D 扫描模型（CC BY 4.0，含完整署名） |
+| [Fumofumo_Mobile](https://github.com/FunnyArchbishop/Fumofumo_Mobile) | Android 悬浮桌宠（Kotlin + OpenGL ES 3.0），可直接导入本仓库的 `.glb` |
+| [Fumofumo_Windows](https://github.com/FunnyArchbishop/Fumofumo_Windows) | Windows 桌面版（Python + Qt + moderngl），源自 [CaxyLZ/WINobj](https://github.com/CaxyLZ/WINobj) |
+
+模型仓库和代码仓库是分开的：模型体积大（69.5 MB）且授权独立（CC BY 4.0，需要署名），所以代码仓库里不放模型文件，只在运行时由用户自行选择。
+
