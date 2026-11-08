@@ -1,6 +1,6 @@
-# Fumofumo Models
+# Fumofumo_Models
 
-东方 Project 的 **fumo（ふも）3D 扫描模型**合集，共 20 个，全部为单文件 `.glb`（贴图内嵌），可直接用于 [Fumofumo-Mobile](../Fumofumo-Mobile) 桌宠或任何支持 glTF 2.0 的软件。
+东方 Project 的 **fumo（ふも）3D 扫描模型**合集，共 20 个，全部为单文件 `.glb`（贴图内嵌），可直接用于 [Fumofumo_Mobile](https://github.com/FunnyArchbishop/Fumofumo_Mobile) 桌宠或任何支持 glTF 2.0 的软件。
 
 ## 授权：全部 CC BY 4.0
 
@@ -70,7 +70,7 @@
 ## 说明
 
 - **来源**：全部通过 Sketchfab 官方下载接口获取，格式为 Sketchfab 转码的 GLB（贴图内嵌、PBR 材质），未做任何改动。
-- **贴图通道**：其中一部分是 Sketchfab 上的 Shadeless 扫描件，颜色贴图被放在**自发光（emissive）通道**而非 baseColor。Fumofumo-Mobile 会依次尝试 baseColor → emissive，所以能正常显示；其它软件里如果模型显示为灰色，请手动把 emissive 贴图接到 base color。
+- **贴图通道**：其中一部分是 Sketchfab 上的 Shadeless 扫描件，颜色贴图被放在**自发光（emissive）通道**而非 baseColor。Fumofumo_Mobile 会依次尝试 baseColor → emissive，所以能正常显示；其它软件里如果模型显示为灰色，请手动把 emissive 贴图接到 base color。
 - **三角面数**：从 9,999 到 99,862 不等。手机上建议优先用面数较低的（10k 左右）。
 - **重名提示**：`project-reimu-fumo-3d-scan` 与 `project-v2-reimu-hakurei-fumo-3d-scan` 是不同作者的不同扫描版本，V2 是后来的重制。
 
@@ -82,4 +82,4 @@
 
 ## 与代码仓库的关系
 
-模型仓库和代码分开：模型体积大（69.5 MB）且授权独立，[Fumofumo-Mobile](https://github.com/FunnyArchbishop/Fumofumo-Mobile) 仓库里不放模型文件，只在运行时由用户自行选择。
+模型仓库和代码分开：模型体积大（69.5 MB）且授权独立，[Fumofumo_Mobile](https://github.com/FunnyArchbishop/Fumofumo_Mobile) 仓库里不放模型文件，只在运行时由用户自行选择。
